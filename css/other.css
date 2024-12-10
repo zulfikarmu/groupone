@@ -70,3 +70,22 @@ body {
     text-align: justify;
 }
 
+
+.typing-container {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 2px solid orange; */
+    width: 20ch; /* Panjang area teks */
+    animation: blink 0.7s step-end infinite;
+    /* margin-bottom: 10px; */
+    color: #000000;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
