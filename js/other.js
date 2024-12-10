@@ -1,36 +1,34 @@
-const texts = ["Zulfikar", "Azizi", "Faldi", "Vincent", "Putri", "Aza", "Keysa", "GroupOne", ]; // Array teks
-const typingSpeed = 100; // Kecepatan mengetik
-const deletingSpeed = 50; // Kecepatan menghapus
-const delayBetweenTexts = 1000; // Delay antar teks
+const dynamicText = document.getElementById("typing-text");
 
-const typingElement = document.getElementById("typing-text");
-let textIndex = 0;
+// Array of words to "type"
+const words = ["Zulfikar", "Azizi", "Faldi", "Vincent", "Putri", "Aza", "Keysa", "GroupOne"];
+let wordIndex = 0;
 let charIndex = 0;
-let isDeleting = false;
 
-function typeText() {
-  const currentText = texts[textIndex]; // Teks saat ini
-
-  if (isDeleting) {
-    // Mode menghapus
-    typingElement.innerHTML = currentText.substring(0, charIndex--);
-    if (charIndex < 0) {
-      isDeleting = false;
-      textIndex = (textIndex + 1) % texts.length; // Pindah ke teks berikutnya
-    }
+function typeEffect() {
+  if (charIndex < words[wordIndex].length) {
+    // Add next character to the dynamic text
+    dynamicText.textContent += words[wordIndex][charIndex];
+    charIndex++;
+    setTimeout(typeEffect, 100); // Delay between typing each character
   } else {
-    // Mode mengetik
-    typingElement.innerHTML = currentText.substring(0, charIndex++);
-    if (charIndex > currentText.length) {
-      isDeleting = true;
-      setTimeout(typeText, delayBetweenTexts); // Tunggu sebelum menghapus
-      return;
-    }
+    // Wait before deleting the text
+    setTimeout(deleteEffect, 1000);
   }
-
-  const speed = isDeleting ? deletingSpeed : typingSpeed;
-  setTimeout(typeText, speed);
 }
 
-// Mulai efek
-typeText();
+function deleteEffect() {
+  if (charIndex > 0) {
+    // Remove last character
+    dynamicText.textContent = words[wordIndex].substring(0, charIndex - 1);
+    charIndex--;
+    setTimeout(deleteEffect, 50); // Delay between deleting each character
+  } else {
+    // Move to the next word
+    wordIndex = (wordIndex + 1) % words.length; // Loop back to the start
+    setTimeout(typeEffect, 500);
+  }
+}
+
+// Start the typing effect
+typeEffect();

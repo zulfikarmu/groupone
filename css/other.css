@@ -69,20 +69,39 @@ body {
     color: #2f373d;
     text-align: justify;
 }
-
-
+  
 .typing-container {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    animation: blink 0.7s step-end infinite;
+    /* text-align: center; */
+}
+
+/* Gaya khusus untuk tampilan tablet dan mobile */
+@media (max-width: 1024px) {
+    .typing-container {
+        align-items: center; /* Vertikal tengah */
+        justify-content: center; /* Horizontal tengah */
+    }
+}
+
+
+    
+  }
+  .static-text {
+    color: black;
+  }
+  .dynamic-text {
+    color: #ff7e5f;
+    /* border-right: 1px solid black; */
     white-space: nowrap;
     overflow: hidden;
-    /* border-right: 2px solid orange; */
-    width: 20ch; /* Panjang area teks */
-    animation: blink 0.7s step-end infinite;
-    /* margin-bottom: 10px; */
-    color: #000000;
+    display: inline-block;
+    padding: 0.5rem;
   }
-  
+
   @keyframes blink {
     50% {
       border-color: transparent;
