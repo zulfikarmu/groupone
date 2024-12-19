@@ -2,16 +2,16 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:300,400,500,600,700,800|Roboto:300,400,500|Martel:700,800");
 /* line 2, E:/167 Bizcon Business/Bizcon_html/sass/_extends.scss */
 .btn_1, .banner_part .banner_text .btn_1 {
-  background-image: -webkit-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: -o-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
+  background-image: -webkit-linear-gradient(131deg, #7da0c4, #5483b3, #013a63, #012a4a);
+  background-image: -o-linear-gradient(131deg, #7da0c4, #5483b3, #013a63, #012a4a);
+  background-image: linear-gradient(131deg, #7da0c4, #5483b3, #013a63, #012a4a);
 }
 
 /* line 8, E:/167 Bizcon Business/Bizcon_html/sass/_extends.scss */
 .btn_2, .btn_4, .slick-dots .slick-active button {
-  background-image: -webkit-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: -o-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
+  background-image: -webkit-linear-gradient(131deg, #7da0c4, #5483b3, #013a63, #012a4a);
+  background-image: -o-linear-gradient(131deg, #7da0c4, #5483b3, #013a63, #012a4a);
+  background-image: linear-gradient(131deg, #7da0c4, #5483b3, #013a63, #012a4a);
 }
 
 /**************** extend css start ****************/
@@ -147,7 +147,7 @@ a {
 
 /* line 66, E:/167 Bizcon Business/Bizcon_html/sass/_common.scss */
 a:hover {
-  color: #ff7e5f;
+  color: #468FAF;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -956,7 +956,7 @@ ul {
 .btn_3:after {
   height: 48px;
   width: 61px;
-  background-color: #e3f1da;
+  background-color: #CFE0EB;
   position: absolute;
   content: "";
   top: 0px;
@@ -983,9 +983,9 @@ ul {
   padding: 12px 54px;
   border-radius: 4px;
   color: #fff;
-  border: 1px solid #fdcb9e;
+  border: 1px solid #A6C3E4;
   text-transform: uppercase;
-  background-color: #ff7e5f;
+  background-color: #78a3d4;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1021,7 +1021,7 @@ ul {
 /* line 204, E:/167 Bizcon Business/Bizcon_html/sass/_button.scss */
 .button-header {
   color: #fff;
-  border-color: #fdcb9e;
+  border-color: #78a3d4;
 }
 
 /* line 208, E:/167 Bizcon Business/Bizcon_html/sass/_button.scss */
@@ -1033,7 +1033,7 @@ ul {
 /* line 214, E:/167 Bizcon Business/Bizcon_html/sass/_button.scss */
 .button-contactForm {
   color: #fff;
-  border-color: #fdcb9e;
+  border-color: #78a3d4;
   padding: 12px 25px;
 }
 
@@ -1110,7 +1110,7 @@ ul {
 
 /* line 66, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .single-blog .date {
-  color: #666666;
+  color: #9faac8;
   text-align: left;
   display: inline-block;
   font-size: 13px;
@@ -1134,7 +1134,7 @@ ul {
   position: absolute;
   width: 1px;
   height: 10px;
-  background: #acacac;
+  background: #c0c7ff;
   right: -12px;
   top: 7px;
 }
@@ -1175,7 +1175,7 @@ ul {
 
 /* line 121, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .single-blog .single-blog-content .meta-bottom i {
-  color: #fdcb9e;
+  color: #2d82b5;
   font-size: 13px;
   margin-right: 7px;
 }
@@ -1533,7 +1533,7 @@ ul {
 
 /* line 510, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .categories_post:hover .categories_details {
-  background: rgba(222, 99, 32, 0.85);
+  background: rgba(36, 7, 165, 0.85);
 }
 
 /*============ blog_left_sidebar css ==============*/
@@ -1545,7 +1545,7 @@ ul {
 /* line 529, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .blog_details {
   padding: 30px 0 20px 10px;
-  box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+  box-shadow: 0px 10px 20px 0px rgba(200, 206, 241, 0.3);
 }
 
 @media (min-width: 768px) {
@@ -1562,12 +1562,12 @@ ul {
 
 /* line 541, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .blog_details a {
-  color: #ff8b23;
+  color: #2d82b5;
 }
 
 /* line 544, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .blog_details a:hover {
-  color: #ff7e5f;
+  color: #2d82b5;
 }
 
 /* line 549, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -1593,7 +1593,7 @@ ul {
 
 /* line 567, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .blog-info-link li a {
-  color: #999999;
+  color: #bce6ff;
 }
 
 /* line 571, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -1635,7 +1635,7 @@ ul {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #ff7e5f;
+  background-color: #2d82b5;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -1705,7 +1705,7 @@ ul {
   height: 50px;
   border-color: #f0e9ff;
   font-size: 13px;
-  color: #999999;
+  color: #bce6ff;
   padding-left: 20px;
   border-radius: 0;
   border-right: 0;
@@ -1713,7 +1713,7 @@ ul {
 
 /* line 678, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .blog_right_sidebar .search_widget .form-control::placeholder {
-  color: #999999;
+  color: #bce6ff;
 }
 
 /* line 682, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -1736,7 +1736,7 @@ ul {
 .blog_right_sidebar .search_widget .input-group button i,
 .blog_right_sidebar .search_widget .input-group button span {
   font-size: 14px;
-  color: #999999;
+  color: #bce6ff;
 }
 
 /* line 710, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -1744,14 +1744,14 @@ ul {
   height: 50px;
   border-color: #f0e9ff;
   font-size: 13px;
-  color: #999999;
+  color: #bce6ff;
   padding-left: 20px;
   border-radius: 0;
 }
 
 /* line 719, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .blog_right_sidebar .newsletter_widget .form-control::placeholder {
-  color: #999999;
+  color: #bce6ff;
 }
 
 /* line 723, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -1774,7 +1774,7 @@ ul {
 .blog_right_sidebar .newsletter_widget .input-group button i,
 .blog_right_sidebar .newsletter_widget .input-group button span {
   font-size: 14px;
-  color: #999999;
+  color: #88cdf6;
 }
 
 /* line 752, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -1793,7 +1793,7 @@ ul {
 .blog_right_sidebar .post_category_widget .cat-list li a {
   font-size: 14px;
   line-height: 20px;
-  color: #888888;
+  color: #88cdf6;
 }
 
 /* line 766, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -1852,13 +1852,13 @@ ul {
   margin-bottom: 8px;
   margin-right: 3px;
   transition: all 0.3s ease 0s;
-  color: #888888;
+  color: #88cdf6;
   font-size: 13px;
 }
 
 /* line 839, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #ff7e5f;
+  background: #2d82b5;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -1907,7 +1907,7 @@ ul {
   width: 45px;
   height: 45px;
   border-radius: 0 !important;
-  color: #8a8a8a;
+  color: #88cdf6;
   border: 1px solid #f0e9ff;
   margin-right: 10px;
 }
@@ -1922,7 +1922,7 @@ ul {
 .blog-pagination .page-item.active .page-link {
   background-color: #fbf9ff;
   border-color: #f0e9ff;
-  color: #888888;
+  color: #828bb2;
 }
 
 /* line 1021, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -1972,7 +1972,7 @@ ul {
   background: rgba(130, 139, 178, 0.1);
   padding: 15px;
   line-height: 1.733;
-  color: #888888;
+  color: #828bb2;
   font-style: italic;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -2065,7 +2065,7 @@ ul {
 .single-post-area .navigation-top .social-icons li i,
 .single-post-area .navigation-top .social-icons li span {
   font-size: 14px;
-  color: #999999;
+  color: #5483b3;
 }
 
 /* line 1179, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -2106,7 +2106,7 @@ ul {
 
 /* line 1205, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #ff7e5f;
+  color: #2d82b5;
 }
 
 /* line 1210, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -2293,7 +2293,7 @@ ul {
 /* line 1375, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .comments-area .date {
   font-size: 14px;
-  color: #999999;
+  color: #bce6ff;
   margin-bottom: 0;
   margin-left: 20px;
 }
@@ -2301,14 +2301,14 @@ ul {
 /* line 1382, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .comments-area .comment {
   margin-bottom: 10px;
-  color: #777777;
+  color: #88cdf6;
   font-size: 15px;
 }
 
 /* line 1388, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .comments-area .btn-reply {
   background-color: transparent;
-  color: #888888;
+  color: #88cdf6;
   padding: 5px 18px;
   font-size: 14px;
   display: block;
@@ -2379,12 +2379,12 @@ ul {
 /* line 1455, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .comment-form .form-control::placeholder {
   font-weight: 300;
-  color: #999999;
+  color: #bce6ff;
 }
 
 /* line 1460, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
 .comment-form .form-control::placeholder {
-  color: #777777;
+  color: #88cdf6;
 }
 
 /* line 1465, E:/167 Bizcon Business/Bizcon_html/sass/_blog.scss */
@@ -2445,7 +2445,7 @@ ul {
 
 /* line 18, E:/167 Bizcon Business/Bizcon_html/sass/_single_blog.scss */
 .single_blog_post .single_blog .single_appartment_content p a {
-  color: #ff7e5f;
+  color: #2d82b5;
 }
 
 /* line 22, E:/167 Bizcon Business/Bizcon_html/sass/_single_blog.scss */
@@ -2459,7 +2459,7 @@ ul {
 /* line 28, E:/167 Bizcon Business/Bizcon_html/sass/_single_blog.scss */
 .single_blog_post .single_blog .single_appartment_content h5 {
   font-size: 15px;
-  color: #8a8a8a;
+  color: #5483b3;
   font-weight: 400;
 }
 
@@ -2472,13 +2472,13 @@ ul {
 .single_blog_post .single_blog .single_appartment_content .list-unstyled li {
   display: inline;
   margin-right: 17px;
-  color: #999999;
+  color: #828bb2;
 }
 
 /* line 39, E:/167 Bizcon Business/Bizcon_html/sass/_single_blog.scss */
 .single_blog_post .single_blog .single_appartment_content .list-unstyled li a {
   margin-right: 8px;
-  color: #999999;
+  color: #828bb2;
 }
 
 /**************menu part start*****************/
@@ -2689,7 +2689,7 @@ ul {
   .banner_part {
     height: 650px;
     background-image: none;
-    background-color: #f0eed4;
+    background-color: #bce6ff;
   }
 }
 
@@ -2698,7 +2698,7 @@ ul {
   .banner_part {
     height: 650px;
     background-image: none;
-    background-color: #f0eed4;
+    background-color: #bce6ff;
   }
 }
 
@@ -2707,7 +2707,7 @@ ul {
   .banner_part {
     height: 700px;
     background-image: none;
-    background-color: #f0eed4;
+    background-color: #bce6ff;
   }
 }
 
@@ -2772,7 +2772,7 @@ ul {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-  color: #666666;
+  color: #015c92;
 }
 
 /* line 64, E:/167 Bizcon Business/Bizcon_html/sass/_banner.scss */
@@ -2826,7 +2826,7 @@ ul {
 
 /* line 95, E:/167 Bizcon Business/Bizcon_html/sass/_banner.scss */
 .banner_part .banner_text h1 span {
-  color: #ff7e5f;
+  color: #012a4a;
 }
 
 /* line 100, E:/167 Bizcon Business/Bizcon_html/sass/_banner.scss */
@@ -2865,7 +2865,7 @@ ul {
   font-size: 20px;
   color: #fff;
   box-shadow: 0px 10px 30px 0px rgba(1, 84, 85, 0.2);
-  color: #fe9c6f;
+  color: #015c92;
   margin-left: 37px;
   margin-right: 18px;
   padding-left: 5px;
@@ -2956,7 +2956,7 @@ ul {
 /* line 42, E:/167 Bizcon Business/Bizcon_html/sass/_about.scss */
 .about_part .about_text h4 {
   margin-bottom: 32px;
-  color: #ff7e5f;
+  color: #015c92;
   font-size: 22px;
   font-style: italic;
   font-family: "Poppins", sans-serif;
@@ -3115,7 +3115,7 @@ ul {
 
 /* line 33, E:/167 Bizcon Business/Bizcon_html/sass/_service.scss */
 .service_part .single_service_text p {
-  color: #666666;
+  color: #88cdf6;
   line-height: 1.8;
 }
 
@@ -3226,11 +3226,11 @@ ul {
   bottom: -15px;
   left: -30px;
   border-radius: 50%;
-  background-color: #f6ece5;
+  background-color: #015c92;
   width: 50px;
   height: 50px;
   z-index: -1;
-  background-color: #e3f1da;
+  background-color: #CFE0EB;
 }
 
 /* line 115, E:/167 Bizcon Business/Bizcon_html/sass/_service.scss */
@@ -3241,22 +3241,22 @@ ul {
   line-height: 60px;
   text-align: center;
   border-radius: 5px;
-  background-image: -moz-linear-gradient(131deg, #00b09b 0%, #96c93d 100%);
-  background-image: -webkit-linear-gradient(131deg, #00b09b 0%, #96c93d 100%);
-  background-image: -ms-linear-gradient(131deg, #00b09b 0%, #96c93d 100%);
-  box-shadow: 0px 12px 20px 0px rgba(53, 185, 122, 0.2);
+  background-image: -moz-linear-gradient(131deg, #3a5a76 0%, #243960 100%);
+  background-image: -webkit-linear-gradient(131deg, #3a5a76 0%, #243860 100%);
+  background-image: -ms-linear-gradient(131deg, #3a5a76 0%, #243960 100%);
+  box-shadow: 0px 12px 20px 0px rgba(98, 146, 243, 0.603);
 }
 
 /* line 130, E:/167 Bizcon Business/Bizcon_html/sass/_service.scss */
 .service_part .single_service_part .style_icon:after {
-  background-color: #f6ece5;
+  background-color: #bce6ff;
 }
 
 /* line 134, E:/167 Bizcon Business/Bizcon_html/sass/_service.scss */
 .service_part .single_service_part .style_icon i {
-  background-image: -moz-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
-  background-image: -webkit-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
-  background-image: -ms-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
+  background-image: -moz-linear-gradient(131deg, #c0dfe4 0%, #464898 99%);
+  background-image: -webkit-linear-gradient(131deg, #c0dfe4 0%, #464898 99%);
+  background-image: -ms-linear-gradient(131deg, #c0dfe4 0%, #464898 99%);
   box-shadow: 0px 12px 20px 0px rgba(255, 126, 95, 0.2);
 }
 
