@@ -64,7 +64,7 @@ a{
     text-decoration: none;
     @include transform_time(.5s);
     &:hover{
-        color: #ff7e5f;
+        color: #064469;
         text-decoration: none;
         @include transform_time(.5s);
     }
@@ -237,7 +237,7 @@ ul{
     }
 }
 .blog_item_date{
-    background-color: #ff8b23 !important;
+    background-color: #064469 !important;
 }
 @media (max-width: 1200px) {
     [class*="hero-ani-"] {

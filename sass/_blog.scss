@@ -12,7 +12,7 @@
         text-decoration: none;
         @include transform_time(.5s);
         &:hover, :hover{
-            background: -webkit-linear-gradient( 131deg, #feb47b 0%, #ff7e5f 99%);
+            background: -webkit-linear-gradient( 131deg, #91b2eb 0%, #064469 99%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-decoration: none;
@@ -508,7 +508,7 @@
 
     &:hover {
         .categories_details {
-            background: rgba(222, 99, 32, 0.85);
+            background: #064469;
         }
     }
 }
@@ -602,7 +602,7 @@
         left: 10px;
         display: block;
         color: $white_color;
-        background-color: #ff7e5f;
+        background-color: #064469;
         padding: 8px 15px;
         border-radius: 5px;
 
