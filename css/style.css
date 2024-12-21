@@ -2772,7 +2772,7 @@ ul {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-  color: #015c92;
+  color: #064469;
 }
 
 /* line 64, E:/167 Bizcon Business/Bizcon_html/sass/_banner.scss */
@@ -2867,7 +2867,7 @@ ul {
   font-size: 20px;
   color: #fff;
   box-shadow: 0px 10px 30px 0px rgba(1, 84, 85, 0.2);
-  color: #015c92;
+  color: #064469;
   margin-left: 1px;
   margin-right: 18px;
   padding-left: 5px;
@@ -2958,7 +2958,7 @@ ul {
 /* line 42, E:/167 Bizcon Business/Bizcon_html/sass/_about.scss */
 .about_part .about_text h4 {
   margin-bottom: 32px;
-  color: #015c92;
+  color: #064469;
   font-size: 22px;
   font-style: italic;
   font-family: "Poppins", sans-serif;
@@ -3117,7 +3117,7 @@ ul {
 
 /* line 33, E:/167 Bizcon Business/Bizcon_html/sass/_service.scss */
 .service_part .single_service_text p {
-  color: #88cdf6;
+  color: #064469;
   line-height: 1.8;
 }
 
@@ -3228,7 +3228,7 @@ ul {
   bottom: -15px;
   left: -30px;
   border-radius: 50%;
-  background-color: #015c92;
+  background-color: #064469;
   width: 50px;
   height: 50px;
   z-index: -1;
